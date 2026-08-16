@@ -1,4 +1,4 @@
-package com.example.cleanarchitecturesimplificada.domain.model.repository
+package com.example.cleanarchitecturesimplificada.domain.repository
 
 import com.example.cleanarchitecturesimplificada.domain.model.GameState
 
