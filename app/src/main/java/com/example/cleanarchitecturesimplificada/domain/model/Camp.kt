@@ -1,4 +1,6 @@
 package com.example.cleanarchitecturesimplificada.domain.model
 
-class Camp {
-}
+data class Camp(
+    val night: Int,
+    val fireLevel: Int
+)

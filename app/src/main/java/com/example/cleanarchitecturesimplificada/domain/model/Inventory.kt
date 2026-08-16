@@ -1,4 +1,6 @@
 package com.example.cleanarchitecturesimplificada.domain.model
 
-class Inventory {
-}
+data class Inventory(
+    val wood: Int,
+    val food: Int
+)

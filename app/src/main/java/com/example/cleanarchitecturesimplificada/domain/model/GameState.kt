@@ -1,4 +1,7 @@
 package com.example.cleanarchitecturesimplificada.domain.model
 
-class GameState {
-}
+data class GameState(
+    val player: Player,
+    val camp: Camp,
+    val inventory: Inventory
+)

@@ -1,3 +1,6 @@
 package com.example.cleanarchitecturesimplificada.domain.model
 
-data class Player()
+data class Player(
+    val name: String,
+    val health: Int
+)
